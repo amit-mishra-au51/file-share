@@ -1,5 +1,8 @@
 import File from "../models/file.js";
 
+
+
+ //callback fn
 export const uploadImage = async (request, response) => {
     const fileObj= {
         path: request.file.path,
